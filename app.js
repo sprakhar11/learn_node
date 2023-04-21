@@ -25,6 +25,7 @@ let users = [
 const userRouter = express.Router();
 
 app.use('/user', userRouter);
+console.log("Prakhar hereeerer");
 
 userRouter
 .route('/')
